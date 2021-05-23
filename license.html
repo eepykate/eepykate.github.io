@@ -1,7 +1,7 @@
 <style>
 /*  Copyright under MIT - 2021 gk/gtk/6gk  */
 html {
-	animation: rainbow 7s linear infinite !important;
+	animation: rainbow 5s linear infinite !important;
 	color: white;
 	font-family: "Comic Sans MS";
 	text-align: center;
@@ -13,23 +13,14 @@ p {
 	margin: 50px auto;
 }
 
-:root {
-  --red:    #ff0000;
-	--yellow: #ffff00;
-	--green:  #00ff00;
-	--cyan:   #00ffff;
-	--blue:   #0000ff;
-	--pink:   #ff00ff;
-}
-
 @keyframes rainbow {
-	0%   { color: var(--green) ;  background: var(--red)    }
-	17%  { color: var(--cyan)  ;  background: var(--yellow) }
-	33%  { color: var(--blue)  ;  background: var(--green)  }
-	49%  { color: var(--pink)  ;  background: var(--cyan)   }
-	66%  { color: var(--red)   ;  background: var(--blue)   }
-	83%  { color: var(--yellow);  background: var(--pink)   }
-	100% { color: var(--green) ;  background: var(--red)    }
+	0%   { background: #f00;  color: #0ff; }
+	17%  { background: #ff0;  color: #00f; }
+	33%  { background: #0f0;  color: #f0f; }
+	50%  { background: #0ff;  color: #f00; }
+	66%  { background: #00f;  color: #ff0; }
+	83%  { background: #f0f;  color: #0f0; }
+	100% { background: #f00;  color: #0ff; }
 }
 
 @keyframes font {

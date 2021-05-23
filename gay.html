@@ -1,0 +1,25 @@
+<style>
+/*  Copyright under MIT - 2021 gk/gtk/6gk  */
+html {
+	animation: rainbow 7s linear infinite !important;
+}
+
+:root {
+  --red:    #ff0000;
+	--yellow: #ffff00;
+	--green:  #00ff00;
+	--cyan:   #00ffff;
+	--blue:   #0000ff;
+	--pink:   #ff00ff;
+}
+
+@keyframes rainbow {
+	0%   { background: var(--red) }
+	17%  { background: var(--yellow) }
+	33%  { background: var(--green) }
+	49%  { background: var(--cyan) }
+	66%  { background: var(--blue) }
+	83%  { background: var(--pink) }
+	100% { background: var(--red) }
+}
+</style>

@@ -1,0 +1,54 @@
+<style>
+/*  Copyright under MIT - 2021 gk/gtk/6gk  */
+html {
+	animation: rainbow 7s linear infinite !important;
+	color: white;
+	font-family: "Comic Sans MS";
+	text-align: center;
+}
+
+p {
+	animation: font 20s linear infinite !important;
+	max-width: 50em;
+	margin: 50px auto;
+}
+
+:root {
+  --red:    #ff0000;
+	--yellow: #ffff00;
+	--green:  #00ff00;
+	--cyan:   #00ffff;
+	--blue:   #0000ff;
+	--pink:   #ff00ff;
+}
+
+@keyframes rainbow {
+	0%   { color: var(--green) ;  background: var(--red)    }
+	17%  { color: var(--cyan)  ;  background: var(--yellow) }
+	33%  { color: var(--blue)  ;  background: var(--green)  }
+	49%  { color: var(--pink)  ;  background: var(--cyan)   }
+	66%  { color: var(--red)   ;  background: var(--blue)   }
+	83%  { color: var(--yellow);  background: var(--pink)   }
+	100% { color: var(--green) ;  background: var(--red)    }
+}
+
+@keyframes font {
+	0%  {  transform: scale(1.0) }
+	50% {  transform: scale(1.1) }
+	100% { transform: scale(1.0) }
+}
+</style>
+<body>
+	<p>
+Copyright 2021 gk/gtk/6gk
+	<br>
+	<br>
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+	<br>
+	<br>
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+	<br>
+	<br>
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	</p>
+</body>
